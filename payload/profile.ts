@@ -10,12 +10,12 @@ const profile: IProfile.Payload = {
   // image: 'https://resume.yowu.dev/static/image/profile_2019.png',
   image,
   name: {
-    title: 'Lorem ipsum',
-    small: '(LI)',
+    title: '전준형',
+    small: '',
   },
   contact: [
     {
-      title: 'foo@bar.xyz',
+      title: 'junhyeong.jeons@gmail.com',
       link: '#',
       icon: faEnvelope,
     },
@@ -25,25 +25,21 @@ const profile: IProfile.Payload = {
       badge: true,
     },
     {
-      title: 'https://github.com',
-      link: 'https://github.com/uyu423/resume-nextjs',
+      title: 'https://github.com/junhyeongjeon',
+      link: 'https://github.com/junhyeongjeon',
       icon: faGithub,
     },
-    {
-      link: 'https://www.facebook.com/iu.loen',
-      icon: faFacebook,
-    },
-    {
-      title: 'YouTube',
-      link: 'https://www.youtube.com/channel/UC3SyT4_WLHzN7JmHQwKQZww',
-      // icon: faRss,
-      icon: faYoutube,
-    },
+    // {
+    //   link: 'https://www.facebook.com/iu.loen',
+    //   icon: faFacebook,
+    // },
+    // {
+    //   title: 'YouTube',
+    //   link: 'https://www.youtube.com/channel/UC3SyT4_WLHzN7JmHQwKQZww',
+    //   // icon: faRss,
+    //   icon: faYoutube,
+    // },
   ],
-  notice: {
-    title: "This resume is a sample page of 'https://github.com/uyu423/resume-nextjs'.",
-    icon: faBell,
-  },
 };
 
 export default profile;
